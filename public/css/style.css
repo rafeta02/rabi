@@ -1197,12 +1197,19 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .heart {
-    top:37rem;
+    display: none;
   }
+}
 
-  .pekade {
-    margin-top: 7rem;
-  }
+@media screen and (max-width: 400px) {
+    .dan {
+        display: block;
+    }
+}
+@media screen and (min-width: 451px) {
+    .dan {
+        display: none;
+    }
 }
 
 .couple-half {
