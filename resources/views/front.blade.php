@@ -416,17 +416,16 @@
                 </div>
             </div>
 
-			<div class="row animate-box" style="margin-top: 32px">
-				<div class="col-md-8 col-md-offset-2" style="overflow: auto; height:420px">
+			<div class="row animate-box" style="margin-top: 32px; max-height:420px; overflow: auto;">
+				<div class="col-md-8 col-md-offset-2">
 					<div class="list-group">
                         @foreach ($guestbooks as $item)
-                            <a class="list-group-item">
+                            <a class="list-group-item" style="margin-top:5px">
                                 <div class="name"><span class="strong" style="font-size: 24px">{{ $item->name }}</span><span class="label {{ $item->kehadiran === 'hadir' ? 'label-success' : 'label-danger'}}">{{ $item->hadir }}</span></div>
                                 <hr style="margin-top: 0;">
                                 <div class="comment">{{ $item->ucapan }}</div>
                             </a>
                         @endforeach
-
 					</div>
 				</div>
 			</div>
