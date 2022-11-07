@@ -189,7 +189,7 @@
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
-				<div class="couple-half" style="margin-top:7rem">
+				<div class="couple-half pekade">
 					<div class="bride">
 						<img src="{{ asset('images/pekade-square.png') }}" alt="groom" class="img-responsive">
 					</div>
