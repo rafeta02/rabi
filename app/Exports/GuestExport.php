@@ -21,12 +21,14 @@ class GuestExport implements FromCollection, ShouldAutoSize
 
         $rows->push([
             'nama' => 'Nama',
+            'url' => 'URL',
             'brodcast' => 'broadcast',
         ]);
 
         foreach($guests as $guest) {
             $row = [
                 'nama' => $guest->name,
+                'url' => "https://wedding.pekade.com/to/".$guest->slug,
                 'broadcast' => "Bismillahirrahmanirrahim
                 Assalamu'alaikum wr wb.
                 Kepada Yth. ".$guest->name."
