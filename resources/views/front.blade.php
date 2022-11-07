@@ -560,144 +560,112 @@
 		slideDelay: 400,
 		dynamicEl: [
 			{
-				src: 'images/gallery/landscape_01.jpg',
-				thumb: 'images/gallery/landscape_01.jpg',
+				src: '{{ asset('images/gallery/landscape_01.jpg') }}',
+				thumb: '{{ asset('images/gallery/landscape_01.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/landscape_02.jpg',
-				thumb: 'images/gallery/landscape_02.jpg',
+				src: '{{ asset('images/gallery/landscape_02.jpg') }}',
+				thumb: '{{ asset('images/gallery/landscape_02.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/landscape_03.jpg',
-				thumb: 'images/gallery/landscape_03.jpg',
+				src: '{{ asset('images/gallery/landscape_03.jpg') }}',
+				thumb: '{{ asset('images/gallery/landscape_03.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
             {
-				src: 'images/gallery/landscape_04.jpg',
-				thumb: 'images/gallery/landscape_04.jpg',
+				src: '{{ asset('images/gallery/landscape_04.jpg') }}',
+				thumb: '{{ asset('images/gallery/landscape_04.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
             {
-				src: 'images/gallery/landscape_05.jpg',
-				thumb: 'images/gallery/landscape_05.jpg',
+				src: '{{ asset('images/gallery/landscape_05.jpg') }}',
+				thumb: '{{ asset('images/gallery/landscape_05.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_01.jpg',
-				thumb: 'images/gallery/portrait_01.jpg',
+				src: '{{ asset('images/gallery/portrait_01.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_01.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_02.jpg',
-				thumb: 'images/gallery/portrait_02.jpg',
+				src: '{{ asset('images/gallery/portrait_02.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_02.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_03.jpg',
-				thumb: 'images/gallery/portrait_03.jpg',
+				src: '{{ asset('images/gallery/portrait_03.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_03.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_04.jpg',
-				thumb: 'images/gallery/portrait_04.jpg',
+				src: '{{ asset('images/gallery/portrait_04.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_04.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_05.jpg',
-				thumb: 'images/gallery/portrait_05.jpg',
+				src: '{{ asset('images/gallery/portrait_05.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_05.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_06.jpg',
-				thumb: 'images/gallery/portrait_06.jpg',
+				src: '{{ asset('images/gallery/portrait_06.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_06.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_07.jpg',
-				thumb: 'images/gallery/portrait_07.jpg',
+				src: '{{ asset('images/gallery/portrait_07.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_07.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_08.jpg',
-				thumb: 'images/gallery/portrait_08.jpg',
+				src: '{{ asset('images/gallery/portrait_08.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_08.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
 			{
-				src: 'images/gallery/portrait_09.jpg',
-				thumb: 'images/gallery/portrait_09.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},
-			{
-				src: 'images/gallery/portrait_01.jpg',
-				thumb: 'images/gallery/portrait_01.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},
-			{
-				src: 'images/gallery/lamaran_01.jpg',
-				thumb: 'images/gallery/lamaran_01.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},
-			{
-				src: 'images/gallery/lamaran_02.jpg',
-				thumb: 'images/gallery/lamaran_02.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},
-			{
-				src: 'images/gallery/lamaran_03.jpg',
-				thumb: 'images/gallery/lamaran_0.jpg',
+				src: '{{ asset('images/gallery/portrait_09.jpg') }}',
+				thumb: '{{ asset('images/gallery/portrait_09.jpg') }}',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
