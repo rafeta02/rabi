@@ -1,8 +1,6 @@
 <?php
 Route::get('/', 'HomeController@index')->name('front');
-Route::get('to/{tamu?}', 'HomeController@index')->name('front');
-
-Route::post('ucapan', 'HomeController@ucapan')->name('ucapan');
+Route::get('to/{tamu?}', 'HomeController@index')->name('front.tamu');
 
 Route::post('ucapan', 'HomeController@ucapan')->name('ucapan');
 
