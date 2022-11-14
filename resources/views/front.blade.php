@@ -15,7 +15,7 @@
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="The Wedding of Ristina and Ramadhan"/>
-	<meta property="og:image" content="images/icon.png"/>
+	<meta property="og:image" content="{{ asset('images/icon.png') }}"/>
 	<meta property="og:url" content="https://wedding.pekade.com/"/>
 	<meta property="og:site_name" content="The Wedding of Ristina and Ramadhan"/>
 	<meta property="og:description" content="The Wedding of Ristina and Ramadhan.
